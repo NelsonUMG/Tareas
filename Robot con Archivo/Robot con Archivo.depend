@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1645508051 source:c:\users\nelso\proyectos\tareas\tareas\robot con archivo\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
