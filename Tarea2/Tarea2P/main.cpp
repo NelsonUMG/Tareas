@@ -4,12 +4,12 @@ using namespace std;
 
 using namespace std;
 int main (){
+cout << " * Seleccione una Opcion ";
 cout <<  " 1. Programacion I";
  cout << " 2. Derecho Informatico ";
  cout << " 3. Calculo I ";
  cout << " 4. Proceso Administrativo";
  cout << " 5. Fisica I ";
- cout << " * Seleccione una Opcion ";
  int OP = 0;
  cin >> OP;
     switch(OP)
@@ -17,7 +17,7 @@ cout <<  " 1. Programacion I";
     cout << " Programacion I";
     int nota;
     cout << " Ingrese la nota obtenida: "; cin >> nota;
-    if ( nota <= 50){
+    if ( nota <= 60){
         cout << " nota obtenida:  "<<nota<<"; Necesita mejorar  "<<endl;
     }
     else
@@ -33,7 +33,7 @@ cout <<  " 1. Programacion I";
      cout << " Derecho Informatico ";
     int nota2;
     cout << " Ingrese la nota obtenida: "; cin >> nota2;
-    if ( nota2 <= 50){
+    if ( nota2 <= 60){
         cout << " nota obtenida:  "<<nota2<<"; Necesita mejorar "<<endl;
     }
     else
@@ -49,7 +49,7 @@ cout <<  " 1. Programacion I";
     cout << " Calculo I ";
       int nota3;
     cout << " Ingrese la nota obtenida: "; cin >> nota3;
-    if ( nota3 <= 50){
+    if ( nota3 <= 60){
         cout << " nota obtenida:  "<<nota3<<"; Necesita mejorar  "<<endl;
     }
     else
@@ -65,7 +65,7 @@ cout <<  " 1. Programacion I";
     cout << " Proceso Administrativo";
       int nota4;
     cout << " Ingrese la nota obtenida: "; cin >> nota4;
-    if ( nota4 <= 50){
+    if ( nota4 <= 60){
         cout << " nota obtenida:  "<<nota4<<"; Necesita mejorar "<<endl;
     }
     else
@@ -81,7 +81,7 @@ cout <<  " 1. Programacion I";
     cout << " Fisica I ";
       int nota5;
     cout << " Ingrese la nota obtenida: "; cin >> nota5;
-    if ( nota5 <= 50){
+    if ( nota5 <= 60){
         cout << " nota obtenida:  "<<nota5<<"; Necesita mejorar  "<<endl;
     }
     else
